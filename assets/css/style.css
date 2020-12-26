@@ -27,7 +27,19 @@
        }
 }
 
+/*Parallax trabajo*/
+.parallax_trabajo {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../img/wp.jpg");
+}
 /*Diseño Tarjeta*/
+.imagen{
+  
+  width: 100%;
+}
 .card .card-image{
     overflow: hidden;
     transform-style: preserve-3d;
