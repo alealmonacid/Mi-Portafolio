@@ -30,6 +30,12 @@ p  { font-family: "Roboto"; font-size: 1em ; font-style: normal; font-weight: 30
       width: 100%;
        }
 }
+@media (max-width:568px){
+  .navbar-brand{
+    width: 50%;
+  }
+
+}
 
 /*Parallax trabajo*/
 .parallax_trabajo {
