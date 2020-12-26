@@ -1,28 +1,32 @@
 /*Fuentes*/
+h1 { font-family: "Open Sans"; font-size: 3.75em; font-style: normal; font-weight: 700; margin-top: 0.25em ; margin-bottom: 0.25em; } 
+h2 { font-family: "Open Sans"; font-size: 2.75em ; font-style: normal; font-weight: 300; margin-bottom: 1.25em; } 
+h3  { font-family: "Open Sans"; font-size: 0.5em ; font-style: normal; font-weight: 300; margin-bottom: 0.25em; } 
+p  { font-family: "Roboto"; font-size: 1em ; font-style: normal; font-weight: 300; margin-bottom: 0.25em; } 
+
 
 /*Logos Empresas*/
-.logos{
+.logosexp{
   height: 20%;
 }
 
 /*Parallax inicial*/
-.paral {
+.parallax_header {
   background-attachment: fixed;
   background-size: cover;
-  background-position: 50% 50%;
-  }
-.paral img {
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../img/parallax.jpg");
+}
+.parallax_header img {
  width: 50%;
  vertical-align: middle;
-}
-.paralsec {
-  background-image: url("../img/parallax.jpg");
 }
 .jumbotron{margin-bottom: 0;}
 
 @media only screen 
    and (max-width : 768px) {
-    .paral img {
+    .parallax_header img {
       width: 100%;
        }
 }
@@ -34,6 +38,9 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url("../img/wp.jpg");
+}
+.personal{
+  text-align: jus;
 }
 /*Diseño Tarjeta*/
 .imagen{
@@ -72,8 +79,19 @@
 }
 
 
-.btn-custom{
-    background-color: transparent;
-    font-size:18px;
+
+
+.fondofooter{
+  background-color: black;
+  color: white;
  
+}
+.logofooter{
+  width: 50%;
+  vertical-align: middle;
+}
+
+.logos{
+  margin-top: 4%;
+  text-align: center;
 }
