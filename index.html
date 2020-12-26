@@ -1,58 +1,311 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-     <!--Barra de Navegación-->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-          <a class="navbar-brand" href="index.html"> <img src="assets/img/logo.png" alt="Logo"></a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="js/script.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="#mi">Acerca de mi<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#trabajos">Trabajos</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#contacto">Contacto</a>
-                  </li>
-              </ul>
-          </div>
+
+</head>
+
+<body>
+  <!--Barra de Navegación-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="25%"
+          viewBox="0 0 1380.000000 1380.000000" fill="white" preserveAspectRatio="xMidYMid meet">
+
+          <g transform="translate(0.000000,1380.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
+            <path d="M5011 11093 c0 -32 -70 -230 -101 -285 -8 -15 -118 -301 -172 -448
+           -11 -30 -24 -64 -28 -75 -4 -11 -31 -81 -60 -155 -29 -74 -57 -146 -62 -160
+           -13 -32 -19 -46 -58 -150 -39 -104 -45 -118 -58 -150 -5 -14 -29 -74 -52 -135
+           -23 -60 -46 -119 -50 -130 -5 -11 -35 -90 -68 -175 -149 -386 -254 -657 -263
+           -677 -18 -45 -28 -69 -59 -153 -18 -47 -36 -95 -41 -107 -5 -13 -13 -33 -18
+           -45 -5 -13 -28 -72 -51 -133 -53 -139 -55 -145 -68 -175 -5 -14 -24 -63 -42
+           -110 -18 -47 -37 -96 -42 -110 -12 -29 -11 -25 -78 -200 -28 -74 -76 -196
+           -106 -270 -54 -133 -197 -502 -236 -610 -11 -30 -25 -66 -30 -80 -14 -32 -19
+           -47 -58 -150 -18 -47 -36 -95 -41 -107 -5 -13 -13 -33 -18 -45 -5 -13 -23 -61
+           -41 -108 -39 -104 -45 -118 -58 -150 -5 -14 -29 -74 -52 -135 -23 -60 -46
+           -119 -50 -130 -9 -22 -193 -495 -272 -700 -27 -71 -54 -140 -59 -152 -5 -13
+           -13 -33 -18 -45 -5 -13 -23 -61 -41 -108 -18 -47 -37 -96 -42 -110 -13 -32
+           -19 -46 -58 -150 -18 -47 -36 -95 -41 -107 -5 -13 -13 -33 -18 -45 -5 -13 -28
+           -72 -51 -133 -23 -60 -46 -119 -50 -130 -5 -11 -35 -90 -68 -175 -164 -423
+           -254 -657 -262 -675 -5 -11 -41 -103 -80 -205 -39 -102 -76 -193 -81 -202 -5
+           -10 -9 -25 -9 -33 0 -8 -4 -15 -10 -15 -5 0 -10 -9 -10 -20 0 -20 7 -20 3455
+           -20 3284 0 3455 1 3455 18 0 15 68 199 89 242 4 8 18 49 30 90 13 41 27 85 32
+           98 5 12 14 33 19 47 6 14 15 36 20 50 6 14 14 35 19 48 5 12 28 72 51 132 42
+           110 50 130 71 183 7 15 15 36 19 47 74 189 153 394 265 680 75 193 164 420
+           197 505 33 85 65 166 70 180 13 30 15 36 68 175 54 142 55 145 68 175 6 14 42
+           106 80 205 182 468 268 691 319 820 30 77 66 172 80 210 14 39 34 83 45 98 11
+           16 31 56 43 90 13 34 44 117 69 185 25 68 46 131 46 140 0 14 35 111 70 197
+           14 33 252 643 340 870 45 116 108 278 140 360 32 83 85 221 119 308 34 86 88
+           226 121 310 50 129 275 710 365 942 15 39 40 106 57 150 16 44 34 89 38 100 4
+           11 13 36 20 55 7 19 17 46 22 60 15 36 24 60 38 100 7 19 16 44 20 55 63 156
+           180 470 180 484 0 8 -974 11 -3454 11 l-3455 0 0 -37z m2009 -328 c734 -4
+           1846 -10 2470 -15 675 -5 1139 -4 1145 1 5 5 163 9 357 9 281 0 350 -3 354
+           -13 3 -8 -29 -101 -71 -208 -42 -107 -99 -252 -127 -324 -27 -71 -54 -139 -58
+           -150 -4 -11 -31 -81 -60 -155 -29 -74 -56 -144 -60 -155 -5 -11 -35 -90 -68
+           -175 -33 -85 -94 -243 -136 -350 -41 -107 -116 -301 -166 -430 -177 -457 -192
+           -495 -200 -515 -4 -11 -35 -90 -68 -175 -33 -85 -92 -236 -130 -335 -38 -99
+           -107 -277 -153 -395 -45 -118 -87 -220 -91 -226 -6 -8 -393 -13 -1426 -19
+           -779 -4 -1440 -8 -1469 -10 -61 -3 -47 -26 -152 245 -43 113 -95 248 -116 300
+           -20 52 -64 165 -97 250 -33 85 -64 164 -68 175 -4 11 -27 70 -50 130 -53 139
+           -55 145 -68 175 -5 14 -33 86 -62 160 -29 74 -56 144 -60 155 -5 11 -44 112
+           -88 225 -134 346 -273 704 -282 725 -4 11 -31 81 -60 155 -68 177 -66 171 -78
+           200 -5 14 -33 86 -62 160 -29 74 -57 146 -62 160 -6 14 -14 34 -18 45 -5 11
+           -36 92 -70 180 -34 88 -65 170 -70 182 -12 29 -2 35 45 29 22 -3 641 -8 1375
+           -11z m-1750 -322 c12 -32 25 -67 30 -78 4 -11 12 -31 18 -45 11 -27 54 -138
+           217 -560 110 -286 221 -570 235 -605 4 -11 27 -69 50 -130 23 -60 46 -119 50
+           -130 4 -11 31 -81 60 -155 29 -74 56 -144 60 -155 4 -11 31 -78 58 -150 28
+           -71 98 -254 157 -405 59 -151 134 -345 167 -430 33 -85 63 -164 68 -175 4 -11
+           27 -69 50 -130 23 -60 46 -118 51 -127 5 -10 9 -27 9 -38 0 -19 -7 -20 -107
+           -20 -169 -1 -2498 23 -2501 25 -2 2 20 61 48 130 5 11 42 108 84 215 69 179
+           179 462 308 795 27 72 54 139 58 150 4 11 31 81 60 155 29 74 56 144 60 155 4
+           11 31 79 58 150 129 333 239 616 308 795 42 107 79 204 84 215 4 11 31 81 60
+           155 29 74 56 144 60 155 8 20 83 216 102 268 6 15 12 27 13 27 1 0 13 -26 25
+           -57z m321 -3749 l1136 -7 107 -276 c59 -152 111 -285 116 -296 4 -11 27 -69
+           50 -130 23 -60 46 -120 51 -132 5 -13 13 -33 18 -45 5 -13 28 -72 51 -133 23
+           -60 47 -121 52 -135 13 -30 15 -36 68 -175 23 -60 46 -119 50 -130 5 -11 41
+           -103 80 -205 39 -102 114 -295 166 -430 53 -135 118 -303 146 -375 27 -71 54
+           -139 58 -150 4 -11 31 -81 60 -155 29 -74 56 -144 60 -155 4 -11 31 -81 60
+           -155 29 -74 56 -144 60 -155 83 -203 139 -360 132 -367 -9 -9 -526 -7 -1257 6
+           -348 5 -3707 26 -4278 26 l-189 0 7 32 c4 18 11 39 15 48 13 26 87 214 248
+           630 162 416 278 717 324 835 27 72 54 140 59 153 5 12 13 32 18 45 5 12 32 83
+           61 157 29 74 56 144 60 155 4 11 31 79 58 150 28 72 82 211 120 310 39 99 114
+           293 167 430 53 138 123 320 156 405 33 85 65 163 70 172 5 10 9 24 9 31 0 38
+           14 39 360 33 184 -3 846 -9 1471 -12z m4183 -3 c3 -4 -12 -53 -33 -107 -22
+           -55 -67 -170 -100 -256 -34 -87 -88 -227 -121 -310 -49 -126 -255 -659 -365
+           -943 -15 -38 -54 -140 -87 -225 -33 -85 -64 -164 -68 -175 -4 -11 -31 -78 -58
+           -150 -28 -71 -77 -200 -111 -285 -47 -123 -312 -807 -345 -895 -7 -18 -9 -18
+           -22 10 -7 17 -43 109 -80 205 -36 96 -97 256 -136 355 -106 273 -296 764 -523
+           1350 -53 138 -128 331 -167 430 -90 233 -179 462 -213 550 -15 39 -33 84 -40
+           100 -7 17 -32 80 -55 140 -23 61 -50 131 -60 157 -13 34 -15 48 -7 52 22 8
+           2586 6 2591 -3z" />
+          </g>
+
+        </svg>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#mi">Acerca de mi<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trabajos">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
+    </div>
   </nav>
 
   <!--header con parallax-->
-    <header class="hero text-light text-right py-5 mt-5">
-        <div class="parallax">
-          <div class="parallax_layer parallax_layer-3">
-            <div class="title"><img src="https://presenterse.com/wp-content/uploads/2019/03/bosques.jpg" width="800" height="400"></div>
+  <header class="jumbotron paral paralsec text-left py-5 mt-1">
+    <!-- First Parallax Section -->
+    <div class="animate__animated animate__fadeIn">
+      <img src="assets/img/logo-con-nombre.png">
+    </div>
+
+
+  </header>
+
+  <!--quien soy-->
+  <section id="quien-soy" class="container text-center my-5">
+    <h1 class="texto-responsivo font-weight-bold my-4">Quien soy?</h1>
+    <p class="my-4">Hola!, soy <b>Alejandro Almonacid</b>, tengo 27 años, soy nacido de la ciudad de Curicó. Actualmente
+      me encuentro estudiando Desarrollo Front End en Academia Latam y éste es uno de los resultados de este curso.
+      Durante mi infancia me dedicaba a la fotografía, llegando a apoyar a la prensa de Curicó, teniendo trabajos en
+      revistas, diarios, campañas publicitarias y en el Último libro de Curicó Unido, teniendo como portada una de las
+      mejores fotos que he sacado ultimamente, También me dedico al diseño, apoyando a decenas de pymes logré
+      capacitarme de forma independiente, apoyando en logos, afiches y gigantografías. A los 25 años me titulé como
+      Técnico programador en AIEP sede Curicó y desde ese tiempo hasta la actualidad me he capacitado tanto en soporte
+      como en desarrollo, obteniendo las certificaciones MTA de Microsoft de Windows Server, Base de datos, Sistema
+      Operativo Windows y Seguridad Informática.</p>
+
+    <section id="experiencia" class="container text-center my-5">
+      <h2 class="text-center font-weight-bold my-4">Mis Experiencia</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/img/tibox.png" class="my-3 logos">
+          <p class="my-3">Durante el 2016 estuve trabajando en el Área de Soporte, brindando apoyo a varias empresas en
+            la región del Maule y Ohiggins</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="assets/img/mps.png" class="my-3 logos">
+          <p class="my-3">Desde el 2018 me dedique a brindar apoyo técnico a casi mil abonados en sistemas de alarma y
+            CCTV</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="assets/img/freelance.png" class="my-3 logos">
+          <p class="my-3">Durante mis estudios hasta la actualidad me he estado especializando en Soporte técnico y
+            Diseño web, logrando aprender varias cosas nuevas </p>
+        </div>
+
+      </div>
+      <section id="habilidades" class="container text-center my-5">
+        <h2 class="text-center font-weight-bold my-4">Mis Herramientas</h2>
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <h4>Lenguajes Web</h4>
+            <img src="assets/img/icons8-html-5-96.png">
+            <img src="assets/img/icons8-javascript-96.png">
+            <img src="assets/img/icons8-css3-96.png">
           </div>
-          <div class="parallax_layer parallax_layer-2">
-            <div class="title"><img src="https://i.pinimg.com/originals/1d/93/8a/1d938a62a383dd097a93a744be70f0c8.png" width="800" height="400"></div>
+          <div class="col-md-6 my-3">
+            <h4>Programas</h4>
+            <img src="assets/img/icons8-adobe-illustrator-96.png">
+            <img src="assets/img/icons8-adobe-lightroom-96.png">
+            <img src="assets/img/icons8-adobe-photoshop-96.png">
+            <img src="assets/img/icons8-visual-studio-code-2019-96.png">
+            <img src="assets/img/icons8-github-96.png">
           </div>
-          <div class="parallax_layer parallax_layer-1">
-            <div class="title"><img src="https://www.40defiebre.com/wp-content/uploads/2019/12/40defiebre-logo-new.png" width="800" height="400"></div>
+
+        </div>
+      </section>
+
+      <section id="portafolio" class="my-5 p-5">
+        <h2 class="text-center font-weight-bold text-black pb-4">Mis Trabajos</h2>
+
+        <div class="container">
+          <div class="row">
+            <!--Proyecto 1-->
+            <div class="col-lg-4">
+              <a data-toggle="modal" data-target="#meetcofee">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="wrap">
+                      <img class="img-fluid" src="assets/img/meet_coffee.png" alt="Meet&Cofee">
+                    </div>
+                  </div>
+                  <div class="contenido bg-light text-dark">
+                    <span class="card-title">Meet&Cofee</span>
+                  </div>
+                </div>
+              </a>
+              <!--Modal-->
+              <div class="modal fade" id="meetcofee" tabindex="-1" role="dialog" aria-labelledby="ModalTitulo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="ModalTitulo">Meet & Cofee</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                      <div class="row">
+                        <div class="col-dm-12">
+                          <img src="assets/img/meet_coffee.png">
+                        </div>
+                        <div class="col-dm-12 mx-2">
+                          <p>El proyecto Meet & Cofee fue hecho en la Primera unidad HTML y CSS Parte I</p>
+                          <h3>Lenguajes Usados</h3>
+                          <img src="assets/img/icons8-html-5-96.png">
+                          <img src="assets/img/icons8-css3-96.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Ver proyecto</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--FinModal-->
+            </div>
+          <!--FinProyecto1-->
+            <!--Proyecto 2-->
+            <div class="col-lg-4">
+              <a data-toggle="modal" data-target="#iguanapage">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="wrap">
+                      <img class="img-fluid" src="assets/img/iguana_page.png" alt="Meet&Cofee">
+                    </div>
+                  </div>
+                  <div class="contenido bg-light text-dark">
+                    <span class="card-title">Iguana Page</span>
+                  </div>
+                </div>
+              </a>
+              <!--Modal-->
+              <div class="modal fade" id="iguanapage" tabindex="-1" role="dialog" aria-labelledby="ModalTitulo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="ModalTitulo">Iguana Page</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                      <div class="row">
+                        <div class="col-dm-12">
+                          <img src="assets/img/iguana_page.png">
+                        </div>
+                        <div class="col-dm-12 mx-2">
+                          <p>El proyecto Meet & Cofee fue hecho en la Primera unidad HTML y CSS Parte II con el modelo de cajas o grillas</p>
+                          <h3>Lenguajes Usados</h3>
+                          <img src="assets/img/icons8-html-5-96.png">
+                          <img src="assets/img/icons8-css3-96.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Ver proyecto</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--FinModal-->
+            </div>
+          <!--FinProyecto2-->
+          
           </div>
         </div>
-    </header>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+
+
+      </section>
+
+
+
+      <section id="contacto">
+
+      </section>
+      <footer>
+
+      </footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
